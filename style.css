@@ -1,0 +1,870 @@
+body{
+    margin: 0;
+    display: flex;
+}
+
+.res-logo{
+    display: none;
+}
+
+.header{
+    width: 20%;
+    text-align: center;
+    margin-top: 70px;
+    position: fixed;
+    background-color: #fff;
+}
+
+.header-list,.header-list2{
+    list-style: none;
+    font-weight:bold;
+    padding: 0;
+    /* 文字とも白の幅 */
+    line-height: 40px;
+}
+
+
+.header-list2{
+    margin-top: 50px;
+}
+
+.list-item-img{
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+    margin: auto;
+}
+
+main{
+    margin-left: 20%;
+    background-color: #FFFAF3;
+    width: 80%;
+}
+
+img.top-img {
+    width: 100%;
+}
+
+img.car {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-right: 30px;
+}
+
+.car2{
+    display: none;
+}
+
+.back{
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    padding:20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 62px;
+}
+
+/* やめって！？ */
+
+
+.intro{
+    margin-top: 150px;
+}
+
+.intro-title{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+h1.intro-title2 {
+    text-align: initial;
+    margin-left: 45px;
+    font-size: 40px;
+}
+
+
+.intro-content {
+    text-align: initial;
+    margin-left: 45px;
+}
+
+span{
+    font-size: 30px;
+}
+
+.syoukai{
+    display: flex;
+    justify-content: center;
+}
+
+.tizu{
+    margin-right:40px ;
+    width: 45%;
+}
+
+.tizu-intro{
+    background-color: white;
+    width: 40%;
+    height: 360px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+/* .intro-title{
+
+} */
+
+a.btn_02 {
+    display: block;
+    /* text-align: center; */
+    text-decoration: none;
+    width: 50%;
+    margin-top: 34px;
+    /* margin: auto; */
+    padding: 20px;
+    font-weight: bold;
+    border: 2px solid #F6DB4A;
+    background: #F6DB4A;
+    color: #000000;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+
+a.btn_02:hover {
+	color: #595959;
+	background: #f4f673;
+}
+
+a.btn_01 {
+    display: block;
+    /* text-align: center; */
+    text-decoration: none;
+    width: 50%;
+    margin-top: 48px;
+    /* margin: auto; */
+    padding: 20px;
+    font-weight: bold;
+    border: 2px solid #F6DB4A;
+    background: #F6DB4A;
+    color: #000000;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+a.btn_01:hover {
+	color: #595959;
+	background: #f4f673;
+}
+
+img.chara {
+    position: absolute;
+    top: 1109px;
+   right: 0;
+   margin-right: 30px;
+    width: 160px;
+}
+
+/* さけちゃ */
+.link{
+    text-align: right;
+    margin-right: 40px;
+    font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #F6DB4A;
+    padding-bottom: 5px;
+}
+
+.saketya{
+    margin-top: 170px;
+   background-image: url(./images/saketya.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 800px;
+}
+
+.saketya2{
+    display: flex;
+    justify-content: center;
+}
+
+.tya,.sake{
+    border-radius: 20px;
+    background-color: white;
+    margin: 62px;
+    width: 38%;
+    height: 660px;
+    text-align: center;
+    border-bottom:13px solid #F6DB4A;
+}
+
+.tya-title, .sake-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.tya-img,.sake-img{
+  width: 80%;
+}
+
+.tya-contenttitle,.sake-contenttitle{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.sake-content,.tya-content{
+    text-align: left;
+    margin: 30px;
+}
+
+/* recomend */
+.reco-title{
+    color: #39A0FF;
+    font-size: 50px;
+    text-align: center;
+    margin-top:61px ;
+}
+
+.reco-span{
+    color: #000;
+    font-size: 30px;
+}
+
+.topic{
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    border: 3px dashed #000;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cake-content{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    width: 100%;
+}
+
+.cake-text{
+    margin-right: 20px;
+}
+
+.cake-text2{
+    text-align: left;
+}
+
+.topic-sub{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+
+.sub1,.sub2,.sub3,.sub4{
+margin: 10px;
+
+}
+
+}
+
+.sub1-text{
+    width: auto;
+    margin: 10px;
+    border-bottom:2px solid #000;
+    padding-bottom: 20px;
+}
+
+.sub1-title{
+    margin: 10px;
+}
+
+/* 星 */
+.star{
+    margin-top: 75px;
+    background-image: url(./images/星.png);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .star::before{
+    content: '';
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+    background-color: rgba(255, 255, 255, 0.202);
+} */
+
+.star-title{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+h1.star-intro-title {
+    margin-right: 240px;
+    color: white;
+    width: 100%;
+}
+
+.star-content {
+    margin-top: 56px;
+}
+
+img.star-img {
+    margin: 20px 25px 15px 20px;
+    width: 53%;
+}
+
+.star-sub{
+    color: #000;
+}
+
+.ster-text{
+   background-color: #fff;
+
+}
+
+.star-content{
+    display: flex;
+    justify-content: center;
+}
+
+.star-text {
+    background-color: white;
+    padding: 20px;
+}
+
+a.btn_03 {
+    display: block;
+    /* text-align: center; */
+    text-decoration: none;
+    width: 54%;
+    margin-top: 78px;
+    /* margin: auto; */
+    padding: 20px;
+    font-weight: bold;
+    border: 2px solid #F6DB4A;
+    background: #F6DB4A;
+    color: #000000;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+a.btn_03:hover {
+	color: #595959;
+	background: #f4f673;
+}
+
+.star-intro {
+    margin: 23px;
+    width: 40%;
+    margin-left: 34px;
+}
+
+img.star-img {
+    margin: 20px;
+    width: 53%;
+    margin-right: 26px;
+}
+
+/* insta */
+.insta-title{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 140px;
+}
+
+
+
+.res-header{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+    img.logo {
+        width: 80%;
+    }
+
+    img.car {
+        top: 28%;
+        width: 40%;
+    }
+
+    h1.intro-title {
+        font-size: 30px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    h1.intro-title2 {
+        font-size: 22px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .intro-content {
+        font-size: 11px;
+    }
+
+    p.intro-content {
+        font-size: 13px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    a.btn_02 {
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    a.btn_01 {
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    a.btn_03{
+        width: 80%;
+    }
+
+    .star{
+        height: 770px;
+    }
+    .syoukai {
+        margin-top: 58px;
+    }
+
+    section.saketya {
+        margin-top: 68px;
+        height: auto;
+    }
+
+    .topic-sub {
+        flex-wrap: wrap;
+    }
+
+    .cake-text {
+        width: 50%;
+    }
+
+    img.cake {
+        width: 50%;
+    }
+
+    .btn_02 {
+        /* FONT-WEIGHT: 200; */
+        width: 60%;
+    }
+
+    h1.star-intro-title {
+        width: 100%;
+    }
+
+    .star-content {
+            margin: 21px;
+    }
+
+    .star-title {
+        padding-top: 25px;
+    }
+
+    img.chara {
+        display: none;
+    }
+
+    .tya {
+        margin: 30px;
+        height: auto;
+    }
+
+    .sake{
+        margin: 30px;
+        height: auto;
+    }
+
+    .tya-content {
+        text-align: left;
+        margin: 30px;
+        margin-top: 21px;
+    }
+
+    .sake-content {
+        text-align: left;
+        margin: 30px;
+        margin-top: 21px;
+    }
+
+    .tizu-intro {
+        height: auto;
+    }
+
+    .intro {
+        margin-top: 83px;
+    }
+
+    section.top {
+        margin-top: 92px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+    .header{
+        width: 0;
+        display: none;
+    }
+
+    .res-logo{
+        display: inline;
+        position: fixed;
+        z-index: 22;
+        width: 30%;
+    }
+
+    .res-header{
+        display: inline;
+    }
+
+    li.res-item {
+        list-style: none;
+        margin: 8px;
+        margin-top: 19px;
+    }
+
+    ul.res-list {
+        display: flex;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 95%;
+    margin: revert;
+    margin-left: 9px;
+    height: 62px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    border-radius: 74px;
+    text-align: center;
+    /* margin: 0; */
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 700;
+    padding: 2px;
+    }
+
+	main{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .back{
+        width: 120%;
+        height: 500px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    .top-img{
+        height: 500px;
+    }
+
+    .car{
+        display: none;
+    }
+
+    .car2{
+        display: block;
+    position: relative;
+    top: -178px;
+    left: -57px;
+    }
+
+    .intro{
+        margin-top: 90px;
+    }
+
+    .intro-title{
+        font-size: 30px;
+    }
+
+    h1.intro-title2 {
+        text-align: center;
+        font-size: 29px;
+        margin-left: 0;
+    }
+
+    p.intro-content {
+        font-size: 13px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    span{
+        font-size: 15px;
+    }
+
+    .syoukai{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .tizu{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .tizu-intro {
+        /* text-align: center; */
+            height: auto;
+            margin: auto;
+            width: 80%;
+            padding: 13px;
+
+    }
+
+    .chara {
+        display: none;
+    }
+
+    a.btn_02 {
+        margin: auto;
+        margin-top: 31px;
+        margin-bottom: 31px;
+        text-align: center;
+    }
+
+    a.btn_01 {
+        margin: auto;
+        margin-top: 31px;
+        margin-bottom: 31px;
+        text-align: center;
+    }
+
+    .tizu-intro {
+        height: auto;
+    }
+
+    section.saketya {
+        margin-top: 70px;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .saketya2 {
+        display: block;
+        /* height: auto; */
+    }
+
+    .tya {
+        width: 80%;
+        margin: auto;
+        height: auto;
+    }
+
+    h1.tya-title {
+        padding-top: 20px;
+    }
+
+    .sake {
+        width: 80%;
+        margin: auto;
+        height: auto;
+    }
+
+    h1.sake-title {
+        padding-top: 20px;
+    }
+    
+    .reco-title{
+        font-size: 30px; 
+        margin-top: 33px;
+    }
+
+    .reco-span{
+        font-size: 15px;
+    }
+
+
+
+    .cake-content{
+        display: block;
+    }
+
+    .cake-text{
+        width: 100%;
+    }
+
+    img.cake {
+        width: 100%;
+    }
+
+    a.btn_02 {
+        width: 80%;
+        text-align: center;
+    }
+
+    .topic-sub {
+        flex-wrap: wrap;
+    }
+
+    section.star {
+        margin-top: 105px;
+        height: auto;
+    }
+
+    .star-intro {
+        margin: 33px;
+        width: 85%;
+    }
+
+    .star-title{
+        font-size: 30px;
+    }
+
+    .star-sub{
+        font-size: 25px;
+    }
+
+    .star-content {
+        display: block;
+    }
+
+    .star-intro-title {
+        width: 50%;
+        margin: auto;
+        color: white;
+    }
+
+    a.btn_03 {
+        width: 80%;
+        margin-top: 53px;
+        margin: auto;
+        text-align: center;
+        margin-top: 37px;
+    }
+
+    img.star-img {
+        width: 90%;
+        /* text-align: center; */
+        margin-top: 7px;
+        margin-bottom: 52px;
+    }
+
+    h1.insta-title {
+        margin-top: 82px;
+        font-size: 30px;
+    }
+
+    .star-text{
+        background-color: #fff;
+        padding: 20px;
+    }
+
+}
+
+.footer{
+    width: 100%;
+    background-color: #85B479;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dli-pin-fill {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #69d0ff;
+    line-height: 1;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    background: currentColor;
+    border: 0.1em solid currentColor;
+    border-radius: 40% 60% 0% 100% / 40% 100% 0% 60%;
+    box-sizing: content-box;
+    transform: rotate(45deg);
+  }
+  
+  .dli-pin-fill::before {
+    content: '';
+    position: absolute;
+    top: 18%;
+    left: 18%;
+    width: 0.5em;
+    height: 0.5em;
+    background: #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+
+  .dli-pin-fill1 {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #66c134;
+    line-height: 1;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    background: currentColor;
+    border: 0.1em solid currentColor;
+    border-radius: 40% 60% 0% 100% / 40% 100% 0% 60%;
+    box-sizing: content-box;
+    transform: rotate(45deg);
+  }
+  
+  .dli-pin-fill1::before {
+    content: '';
+    position: absolute;
+    top: 18%;
+    left: 18%;
+    width: 0.5em;
+    height: 0.5em;
+    background: #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
